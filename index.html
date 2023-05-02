@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lange="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <title> Encriptador Alura</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="caja">
+                <img src="imagenes/icono.svg">
+                <nav class="buttons">
+                    <ul>
+                        <li><a href="#" class="one"></a></li>
+                        <li><a href="linkedin.com/in/sebastián-bustos-658303271" class="dos"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            
+            <section class="contenedor">
+                <div class="left"> 
+                    <div class="receptor">
+                        <textarea 
+                        id="textoInicial" 
+                        cols="30" rows="10" 
+                        placeholder="Ingrese el texto aquí"></textarea>
+                    </div>
+
+                    <div class="desicion">
+                        <p> &#xf35b; Solo minúsculas y sin acentos</p>
+
+                        <div class="botones">          
+                                <a id="encriptar" onclick="encriptador()"></a>
+                                <a id="desencriptar" onclick="desencriptador()"></a>         
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div id="emisor">
+                        <textarea 
+                        id="textoFinal" 
+                        cols="30" rows="10" readonly></textarea>
+
+                        <img id="muneco" src="imagenes/muñeco.png">
+
+                        <p id="mensaje1">Ningún mensaje fue encontrado</p>
+                        <p id="mensaje2">Ingrese un texto que desees encriptar o desencriptar</p>
+
+                        <div id="agregarBoton">
+                            <ul>
+                                <!--Aquí se agrea el boton de copiado-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p class="piedePagina"> &#xf4d2; Encriptador elaborado como CHALLENGE del curso alura LATAM</p>
+            </footer>
+
+        </main>
+    </body>
+
+    <script type="text/javascript" src="encrip.js"></script>
+
+</html>
