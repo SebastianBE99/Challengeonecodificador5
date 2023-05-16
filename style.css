@@ -78,7 +78,7 @@ nav li{
 }
   
 a.dos::before {
-    content: '\f238';
+    content: 'fa fa-linkedin-square';
 }
   
 a.dos::after {
