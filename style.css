@@ -78,7 +78,7 @@ nav li{
 }
   
 a.dos::before {
-    content: 'f08c';
+    content: '\f238';
 }
   
 a.dos::after {
