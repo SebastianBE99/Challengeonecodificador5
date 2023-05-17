@@ -193,17 +193,17 @@ a.dos::after {
     transition: all ease-in-out .3s;
   }
   
-  .botones a:hover::before {
+  /*.botones a:hover::before {
     margin-top: -44px;
   }
   
   
-  .botones a::after {
+  /*.botones a::after {
     content: '\f457';
     display: block;
-    /* margin: 13px 0; */
+    /* margin: 13px 0; 
     transition: all ease-in-out .3s;
-  }
+  }*/
   
   .botones a#desencriptar {
     background: #D8DFE8;
@@ -215,9 +215,9 @@ a.dos::after {
     content: 'Desencriptar';
   }
   
-  a#desencriptar::after {
+  /*a#desencriptar::after {
     content: '\f09c';
-  }
+  }*/
 
 
 /*.desicion{
