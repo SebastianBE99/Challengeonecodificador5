@@ -53,8 +53,18 @@ function encriptador(){
     }
 
     else {
-        alert("Ingresa un texto para encriptar");
-        return;
+        Swal.fire({
+            title: "Ingresa un texto para encriptar",
+            icon: "warning",
+            width: "50%",
+            padding: "1rem",
+            backdrop: true,
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+            allowEnterKey: true,
+            stopKeydownPropagation: false, 
+            confirmButtonColor: "#0A3871",
+        })
     }
 
 }
@@ -96,8 +106,18 @@ function desencriptador(){
     }
                 
     else {
-        alert("Ingresa un texto para desencriptar");
-        return
+        Swal.fire({
+            title: "Ingresa un texto para desencriptar",
+            icon: "warning",
+            width: "50%",
+            padding: "1rem",
+            backdrop: true,
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+            allowEnterKey: true,
+            stopKeydownPropagation: false, 
+            confirmButtonColor: "#0A3871",
+        })
     }
 }
 

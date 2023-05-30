@@ -37,6 +37,7 @@ nav li{
 .buttons {
     position: absolute;
     top: 2px;
+    cursor: pointer;
   }
   
 .buttons a {
@@ -137,6 +138,7 @@ nav li{
 .botones {
     top: 100%;
     left: 10%;
+    cursor: pointer;
   }
   
   .botones a {
